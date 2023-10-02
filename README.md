@@ -256,7 +256,7 @@ Oke card kita sudah terbuat dan terisi, tinggal hal terakhir menambahkan text ta
     </div>
 ```
 
-Masih di dalam class card, saya menambahkan satu class lagi yaitu class qr-text, untuk text tambahan mengenai informasi gambar QR-Code nya yang ada di card profile, sekaligus mengakhiri isi dari class card. Looks nya akan menjadi seperti ini :
+Masih di dalam class card, saya menambahkan satu class lagi yaitu class qr-text, untuk text tambahan mengenai informasi gambar QR-Code nya yang ada di card profile, sekaligus mengakhiri isi dari class card. BTW QR-Code nya beneran bisa di scan lho!.  Looks nya akan menjadi seperti ini :
 
 ![Screenshot 2023-10-03 003008](https://github.com/walkeyzz/Tugas-WAP/assets/146419451/52b0e19f-fcdf-4733-951c-4981334869ba)
 
