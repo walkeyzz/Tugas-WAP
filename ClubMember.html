@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Club Mmeber Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pixelify Sans">
+   
+
+
+
+    <style type="text/css">
+        .inline-menu>li {
+            display: inline;
+            list-style-type: none;
+            margin-right: 60px;
+        }
+
+        .navbar {
+            background-color: #1d1d1d;
+            padding: 15px;
+            border-radius: 10px;
+        }
+
+        .navbar-link {
+            color: #fffbf5;
+        }
+
+        body {
+            max-width: 100rem;
+            margin: auto;
+            font-family: sans-serif;;
+        }
+
+        .pixelify {
+            font-family: "Pixelify Sans";
+            font-size: 21px;
+        }
+
+        .content {
+            margin-left: 35px;
+            margin-right: 35px;
+        }
+
+        .imgOne-body {
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+            border-radius: 15px;
+        }
+
+        .card {
+            width: 802.5px;
+            height: 472.441860465px; 
+            position: relative;
+            border: 2px solid #000; 
+            border-radius: 25px; 
+            margin: auto;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+        transform: scale(1.1); /* Buat efek Zoom */
+        }
+
+        .card-content {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .card-content img {
+            max-width: 100%;
+            max-height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        
+        .card-content img:first-child {
+            border-radius: 25px;
+        }
+
+        .card-text {
+        position: absolute;
+        top: 10px; 
+        left: 350px; 
+        color: #1d1d1d; 
+        z-index: 2; 
+         }
+
+         .qr-text {
+        position: absolute;
+        top: 330px; 
+        left: 130px; 
+        color: #1d1d1d; 
+        z-index: 2;
+        line-height: 0.3; 
+         }
+
+
+        .paragraph-body {
+            padding-top: 10px;
+            font-size: 24px;
+        }
+
+        .membership-menu {
+            padding-left: 50px;
+        }
+
+        .h1 {
+            text-align: center;
+            color: #1d1d1d;
+        }
+
+        .h3 {
+            text-align: center;
+            color: #1d1d1d;
+        }
+
+        @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+        }
+        40% {
+            transform: translateY(-20px);
+        }
+        60% {
+            transform: translateY(-10px);
+        }
+    }
+
+        .fire-icon {
+        animation: bounce 0.5s ease infinite; 
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <div class="navbar">
+        <ul class="inline-menu">
+            <li style="margin-left: -35px;">
+                <a class="navbar-link" href="#">Home</a>
+            </li>
+            <li>
+                <a class="navbar-link" href="#">About</a>
+            </li>
+            <li>
+                <a class="navbar-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1 class="h1"> KEIKO STUDIO <i class="far fa-copyright"></i></h1>
+        <hr />
+
+        <img class="imgOne-body" src="C:\CCIT UI\SEMESTER 3\MAP & WAP\WAP\CardOne.png" />
+
+    <div class="card">
+        <div class="card-content">
+    
+            <img src="C:\CCIT UI\SEMESTER 3\MAP & WAP\WAP\CardTwo.png" alt="Foto Latar Belakang" style="border-radius: 25px;">
+            <img src="C:\CCIT UI\SEMESTER 3\MAP & WAP\WAP\FotoSaya3.png" alt="Foto Wajah Saya" style="width: 30%; height: auto; left: 47px; right: 47px; top: 20px;">
+            <img src="C:\CCIT UI\SEMESTER 3\MAP & WAP\WAP\QR Code.jpg" style="width: 10%; height: auto; left: 47px; right: 47px; top: 310px;">
+            <div class="card-text">
+                <h3><span style="font-family: sans-serif;">N</span><span
+                    class="pixelify">A</span><span style="font-family: sans-serif;">ME</span></h3>
+                <p>Keiko Joceliandita</p>
+                <h3><span style="font-family: sans-serif;">OCC</span><span
+                    class="pixelify">U</span><span style="font-family: sans-serif;">PATI</span><span
+                    class="pixelify">O</span><span style="font-family: sans-serif;">N</span></h3>
+                <p>Social Media Specialist</p>
+                <h3><span style="font-family: sans-serif;">H</span><span
+                    class="pixelify">O</span><span style="font-family: sans-serif;">BBIES</span></h3>                
+                <li>Going To The Gym</li>
+                <li>Overthinking</li>
+                <li>Watching Grey's Anatomy & Modern Family</li>
+                <h3><span style="font-family: sans-serif;">ZODI</span><span
+                    class="pixelify">A</span><span style="font-family: sans-serif;">C</span></h3>
+                <p>Aries <i class="fas fa-fire fire-icon"></i></p>
+                
+            </div>
+            <div class="qr-text">
+                <p style="font-size: smaller;">SCAN THIS!</p>
+                <h4>GET TO KNOW ME</h4>
+            </div>
+            
+        </div>
+    </div>
+
+        <h3>GET YOUR OWN MEMBERSHIP NOW!</h3>
+        <ul class="membership-menu">
+            <li>
+                <p>
+                    <a href="https://web.whatsapp.com/">Whatsapp <i class="fab fa-whatsapp"></i></a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    <a href="https://mail.google.com/">Email <i class="far fa-envelope"></i></a>
+                </p>
+            </li>
+        </ul>
+
+    </div>
+</body>
+
+</html>
