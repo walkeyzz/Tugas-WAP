@@ -32,7 +32,7 @@ Ada cukup banyak class yang saya buat untuk project ini, akan saya bedah satu-sa
         }
 ```
 
-#Class untuk mengubah dan mengatur font di website 
+#Untuk mengatur main font yang akan dipakai pada website ini 
 ```css
 body {
             max-width: 100rem;
