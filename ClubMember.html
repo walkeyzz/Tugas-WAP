@@ -58,11 +58,12 @@
             margin: auto;
             transition: transform 0.3s ease;
         }
+        
         .card:hover {
         transform: scale(1.1); /* Buat efek Zoom */
         }
 
-        .card-content img {
+        .card-image img {
             max-width: 100%;
             max-height: 100%;
             position: absolute;
@@ -119,7 +120,6 @@
 
 <body>
     
-
     <div class="navbar">
         <ul class="inline-menu">
             <li style="margin-left: -35px;">
@@ -141,11 +141,12 @@
         <img class="imgOne-body" src="C:\CCIT UI\SEMESTER 3\MAP & WAP\WAP\CardOne.png" />
 
     <div class="card">
-        <div class="card-content">
-    
+        <div class="card-image">
             <img src="C:\CCIT UI\SEMESTER 3\MAP & WAP\WAP\CardTwo.png" alt="Foto Latar Belakang" style="border-radius: 25px;">
             <img src="C:\CCIT UI\SEMESTER 3\MAP & WAP\WAP\FotoSaya3.png" alt="Foto Wajah Saya" style="width: 30%; height: auto; left: 47px; right: 47px; top: 20px;">
             <img src="C:\CCIT UI\SEMESTER 3\MAP & WAP\WAP\QR Code.jpg" style="width: 10%; height: auto; left: 47px; right: 47px; top: 310px;">
+        </div>
+        
             <div class="card-text">
                 <h3><span style="font-family: sans-serif;">N</span><span
                     class="pixelify">A</span><span style="font-family: sans-serif;">ME</span></h3>
@@ -164,12 +165,11 @@
                 <p>Aries <i class="fas fa-fire fire-icon"></i></p>
                 
             </div>
+
             <div class="qr-text">
                 <p style="font-size: smaller;">SCAN THIS!</p>
                 <h4>GET TO KNOW ME</h4>
             </div>
-            
-        </div>
     </div>
 
         <h3>GET YOUR OWN MEMBERSHIP NOW!</h3>
