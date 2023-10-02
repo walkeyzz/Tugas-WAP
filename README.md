@@ -185,7 +185,7 @@ Setelah selesai membuat class yang akan kita perlukan, saat nya mengisi konten n
         </ul>
     </div>
 ```
-Disini saya membuat navigation bar dengan class navbar yang sudah dibuat sebelum nya, lalu menggunakan fungsi list juga yang dipakaikan class inline supaya list nya tidak memanjang kebawah tapi ke samping, kurang lebih seperti ini looks nya :
+Disini saya membuat navigation bar dengan class navbar yang sudah dibuat sebelum nya, lalu di dalam class navbar terdapat class inline-menu guna nya agar list tidak memanjang kebawah tapi ke samping, lalu di dalam nya juga terdapat class navbar-link guna nya untuk memberi warna pada garis bawah nya, kurang lebih seperti ini looks nya :
 
 ![Screenshot 2023-10-02 150304](https://github.com/walkeyzz/Tugas-WAP/assets/146419451/42bce41c-682e-4d00-94f1-c603cd6d34b6)
 
@@ -287,14 +287,16 @@ Oke card profile kita telah selesai sekarang saya mau menambahkan informasi tamb
 
 Code diatas sekaligus mengakhiri codingan yang saya buat, dan code diatas masih masuk ke dalam class content ya. Untuk membuat list saya sudah mengatur nya ke dalam class membership-menu. Saya juga menambahkan link dan ikon di tiap list, seperti link dan ikon whatsapp dan email. Saya mau sedikit jelasin secara garis besar bagian body untuk class nya karena seperti nya kebanyakan class ya, biar gak bingung saya jelasin ulang.
 
-Jadi di bagian body terdapat 7 class :
-1. Class Navbar -> Berguna untuk membuat navigation bar, di tulis di paling pertama bagian body
-2. Class content -> Bisa dibilang ini adalah main class nya, berisikan semua isi konten website setelah navigation bar, literally semua
-3. Class card -> class ini terletak di dalam class content. class ini ditujukan khusus untuk pembuatan card profile, segala isi dari card profile yang akan dimasukkan ada di class ini
-4. Class card-image -> Class ini terletak di dalam class card. Class ini guna nya untuk memasukkan semua file foto/gambar yang dibutuhkan / yang ingin dimasukkan ke dalam card profile nya, seperti foto wajah, foto cover card nya, foto logo dari KEIKO STUDIO, dan foto QR-Code
-5. Class card-text -> Class ini terletak di dalam class card. Class ini berisikan text tentang profile untuk card yang saya buat
-6. Class qr-text -> Class ini terletak di dalam class card. Class ini berisikan text tentang informasi lebih lanjut dari gambar QR-Code yang terdapat pada card profile
-7. Class membership-menu -> Class ini terletak di dalam class content. Dia tidak masuk ke dalam class card karena posisi nya berada di luar bagian card profile. Class ini hanya untuk mengatur jarak list saja
+Jadi di bagian body terdapat 9 class :
+1. Class navbar -> Berguna untuk membuat navigation bar, di tulis di paling pertama bagian body
+2. Class inline-menu -> Terletak di dalam class navbar. Berguna agar list yang ada di navbar tidak memanjang kebawah tapi ke samping, untuk mengatur jarak text di dalam navbar nya juga
+3. Class navbar-link -> Terletak di dalam class navbar. Berguna untuk memberi warna garis bawah pada text yang ada di navbar nya
+4. Class content -> Bisa dibilang ini adalah main class nya, berisikan semua isi konten website setelah navigation bar, literally semua
+5. Class card -> class ini terletak di dalam class content. class ini ditujukan khusus untuk pembuatan card profile, segala isi dari card profile yang akan dimasukkan ada di class ini
+6. Class card-image -> Class ini terletak di dalam class card. Class ini guna nya untuk memasukkan semua file foto/gambar yang dibutuhkan / yang ingin dimasukkan ke dalam card profile nya, seperti foto wajah, foto cover card nya, foto logo dari KEIKO STUDIO, dan foto QR-Code
+7. Class card-text -> Class ini terletak di dalam class card. Class ini berisikan text tentang profile untuk card yang saya buat
+8. Class qr-text -> Class ini terletak di dalam class card. Class ini berisikan text tentang informasi lebih lanjut dari gambar QR-Code yang terdapat pada card profile
+9. Class membership-menu -> Class ini terletak di dalam class content. Dia tidak masuk ke dalam class card karena posisi nya berada di luar bagian card profile. Class ini hanya untuk mengatur jarak list saja
 
 Ok itu saja penjelasan singkat dari website yang saya buat, dan overall looks nya akan tampak seperti ini :
 ![Screenshot 2023-10-03 010139](https://github.com/walkeyzz/Tugas-WAP/assets/146419451/49c0c067-7238-4337-b7e6-bbc6ad0310a1)
